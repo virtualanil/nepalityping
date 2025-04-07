@@ -1,1 +1,1 @@
-# nepalityping
+# nepalitypingcenter.com.np
