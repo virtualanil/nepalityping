@@ -1,0 +1,7 @@
+nepali-typing-center/
+│
+├── index.html
+├── style.css
+├── assets/
+│   └── logo.png (or any images you want)
+└── CNAME (optional – add your domain name here)
