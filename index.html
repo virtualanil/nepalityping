@@ -2,50 +2,105 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nepali Typing Center</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    section {
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 30px;
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <div class="container">
-      <h1>Nepali Typing Center</h1>
-      <p>Fast & Reliable Typing and Documentation Services</p>
-    </div>
+    <h1>Nepali Typing Center</h1>
+    <p>Fast & Reliable Typing and Documentation Services</p>
   </header>
 
-  <section class="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>We provide high-quality Nepali and English typing services, document formatting, form filling, and more. Our experienced team ensures fast turnaround and accuracy.</p>
-    </div>
+  <section class="about container">
+    <h2>About Us</h2>
+    <p>We provide high-quality Nepali and English typing services, document formatting, form filling, and more. Our experienced team ensures fast turnaround and accuracy. Whether you need documents typed, translated, or formatted, we deliver with professionalism and care.</p>
   </section>
 
-  <section class="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Nepali & English Typing</li>
-        <li>Form Fill-up</li>
-        <li>Translation (Nepali-English)</li>
-        <li>Document Formatting (PDF, Word)</li>
-      </ul>
-    </div>
+  <section class="services container">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Nepali & English Typing</li>
+      <li>Form Fill-up</li>
+      <li>Translation (Nepali-English)</li>
+      <li>Document Formatting (PDF, Word)</li>
+      <li>Citizenship, License, and Application Assistance</li>
+    </ul>
   </section>
 
-  <section class="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p>Phone: +977-9851359109</p>
-      <p>Email: nepalitypingcentergmail.com</p>
-    </div>
+  <section class="contact container">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> +977-9851359109</p>
+    <p><strong>Email:</strong> nepalitypingcenter@gmail.com</p>
+    <p><strong>Location:</strong> Putalisadak, Kathmandu, Nepal</p>
   </section>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2020-2025 Nepali Typing Center. All rights reserved.</p>
-    </div>
+    <p>&copy; 2020-2025 Nepali Typing Center. All rights reserved.</p>
   </footer>
 
 </body>
